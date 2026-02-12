@@ -1,24 +1,30 @@
-# ButtonForge - The War Within
+# ButtonForge - The War Within/Midnight
 
 This is a branch of ButtonForge originally created by Alternator
 https://www.curseforge.com/wow/addons/button-forge
 
-**Author: Alternator (Massiner of Nathrezim)**
+Until the addon is updated to allow global palettes, I created this script to do it.
+Runs in bash, under macOS, but should run in Windows under wsl or git bash. I cannot test for windows now.
+
 
 ## Instructions
-1. Delete the entire ButtonForge folder inside ...World of Warcraft\\\_retail_\Interface\AddOns
-2. Download the latest build on GitHub: [https://github.com/dvipid/ButtonForge/archive/master.zip](https://github.com/dvipid/ButtonForge/archive/master.zip)
-3. Unzip it somewhere
-4. Move the ButtonForge folder that was unzipped to your AddOns folder
-5. Open the TOC file and make sure Version is 1.3.2
+run the script, and it creates another addon folder ButtonForgeGlobal
+/reload wow, and it should load.
+Global palettes are a little darker, so you can see they are global.
+/bufog and /buttonforgeglobal are the new slash commands.
 
-    \## Interface: 110100  
-\## Title: Button Forge  
-\## Notes: Add as many or few extra Action Bars and Buttons to your user interface to complement the standard (or other) Action Bars  
-\## Version: 1.3.2
-\## Author: Massiner of Nathrezim  
-\... ... some more lines there
+Here's a toggle macro:
+/click [nomod,button:1] BFToolbarToggle
+/click [mod,button:1][button:2] BFGToolbarToggle
 
-6. Start World of Warcraft
-7. If you suspect that you don't have the fix, continue to step 8.
-8. With World of Warcraft running, reopen that TOC file and make sure it still at version 1.2.1.0, if not and you are using an add-on manager, make sure that it is not replaced by an old build.
+and here's the bash script. It does NOT modify the original, and they work together.
+https://drive.google.com/file/d/1MTqIRnAGrafNvsE6Tl62CF2RXlrKuYOB/view?usp=drive_link
+
+
+Since I made this to copy the original, it should allow you to run it again, after an update, to re-create the new golobal version.
+
+Hopefully, the author can get around to allowing palettes to be flagged as global.
+This is a lot of rework though. I did it, and it had issues as you logged into more than 4 toons.
+This way, this version, keeps it completely isolated as a new addon, so there should never be a conflict.
+
+I wanted to make this for my own use, and decided to share, because it was a LOT of work, nad maybe the author can use it.
