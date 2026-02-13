@@ -1,5 +1,11 @@
 # ButtonForge - The War Within/Midnight
 
+Change Log:
+2026-02-13
+I found a conflict when trying to set keybinds between the 2 versions, and corrected it.
+Both links below are updated to new files.
+
+
 This is a branch of ButtonForge originally created by Alternator
 https://www.curseforge.com/wow/addons/button-forge
 
@@ -18,7 +24,7 @@ Here's a toggle macro:
 /click [mod,button:1][button:2] BFGToolbarToggle
 
 and here's the bash script. It does NOT modify the original, and they work together.
-https://drive.google.com/file/d/1MTqIRnAGrafNvsE6Tl62CF2RXlrKuYOB/view?usp=drive_link
+https://drive.google.com/file/d/10TlEnkry6szFnlzXvQVp49zItdD7vzH4/view?usp=sharing
 
 
 Since I made this to copy the original, it should allow you to run it again, after an update, to re-create the new golobal version.
@@ -31,4 +37,4 @@ I wanted to make this for my own use, and decided to share, because it was a LOT
 
 
 just in case you can't run the script on Windows, here's a link to the created version:
-https://drive.google.com/file/d/1QJ49gHRubEXzxWZQ9jBHz_2eUKut0v-6/view?usp=sharing
+https://drive.google.com/file/d/1tZqhz1m5zlie40XpbISKRWfIyoJgGirP/view?usp=sharing
