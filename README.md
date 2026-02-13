@@ -28,3 +28,7 @@ This is a lot of rework though. I did it, and it had issues as you logged into m
 This way, this version, keeps it completely isolated as a new addon, so there should never be a conflict.
 
 I wanted to make this for my own use, and decided to share, because it was a LOT of work, nad maybe the author can use it.
+
+
+just in case you can't run the script on Windows, here's a link to the created version:
+https://drive.google.com/file/d/1QJ49gHRubEXzxWZQ9jBHz_2eUKut0v-6/view?usp=sharing
